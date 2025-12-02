@@ -85,9 +85,11 @@ def run():
                 "message": message,
             })
         
+        print(f"Status code: {response.status_code}")
+
         if response.status_code != 200:
             print("Problems with Slack webhook")
-            print(f"Status code: {response.status_code}")
+            
             print(f"Text: {response.text}")
 
 
