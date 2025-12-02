@@ -1,15 +1,14 @@
 import csv
-from datetime import datetime, timezone
 import json
 import math
+from datetime import datetime, timezone
 from os import environ
 from random import choice
-import requests
 
+import requests
 
 BIG_GIVE_CAMPAIGN_ID = environ.get("BIG_GIVE_CAMPAIGN_ID")
 SLACK_TRIGGER_URL = environ.get("SLACK_TRIGGER_URL")
-
 
 
 def build_totaliser(amount_raised, target):
@@ -19,8 +18,8 @@ def build_totaliser(amount_raised, target):
 
     totaliser_size = 10
     done_total = min(
-        totaliser_size,
-        math.floor(totaliser_size * amount_raised / target))
+        totaliser_size, math.floor(totaliser_size * amount_raised / target)
+    )
     todo_total = totaliser_size - done_total
     return "{done}{todo}".format(
         done=(done_total * f":{done_icon}: "),
@@ -29,7 +28,6 @@ def build_totaliser(amount_raised, target):
 
 
 def run():
-    
     url = f"https://sf-api-production.thebiggive.org.uk/campaigns/services/apexrest/v1.0/campaigns/{BIG_GIVE_CAMPAIGN_ID}"
     print(f"url: {url}")
     r = requests.get(url)
@@ -83,12 +81,13 @@ def run():
             slack_trigger_url,
             json={
                 "text": message,
-            })
-    
+            },
+        )
+
         print(f"Status code: {response.status_code}")
 
         if response.status_code != 200:
-            print("Problems with Slack webhook")            
+            print("Problems with Slack webhook")
             print(f"Text: {response.text}")
 
     with open("data/output.json", "w") as fh:
