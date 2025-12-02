@@ -30,10 +30,8 @@ def build_totaliser(amount_raised, target):
 
 def run():
     
-    url = (
-        "https://sf-api-production.thebiggive.org.uk"
-        f"/campaigns/services/apexrest/v1.0/campaigns/{BIG_GIVE_CAMPAIGN_ID}"
-    )
+    url = f"https://sf-api-production.thebiggive.org.uk/campaigns/services/apexrest/v1.0/campaigns/{BIG_GIVE_CAMPAIGN_ID}"
+    print(f"url: {url}")
     r = requests.get(url)
     r.raise_for_status()
     data = r.json()
