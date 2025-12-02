@@ -7,6 +7,11 @@ from random import choice
 import requests
 
 
+BIG_GIVE_CAMPAIGN_ID = environ.get("BIG_GIVE_CAMPAIGN_ID")
+SLACK_TRIGGER_URL = environ.get("SLACK_TRIGGER_URL")
+
+
+
 def build_totaliser(amount_raised, target):
     with open("icons.csv") as fh:
         icon_pairs = list(csv.reader(fh))[1:]
@@ -24,9 +29,10 @@ def build_totaliser(amount_raised, target):
 
 
 def run():
+    
     url = (
         "https://sf-api-production.thebiggive.org.uk"
-        "/campaigns/services/apexrest/v1.0/campaigns/a056900002TPVWCAA5"
+        f"/campaigns/services/apexrest/v1.0/campaigns/{BIG_GIVE_CAMPAIGN_ID}"
     )
     r = requests.get(url)
     r.raise_for_status()
@@ -73,7 +79,7 @@ def run():
     )
     print(message)
 
-    slack_trigger_url = environ.get("SLACK_TRIGGER_URL")
+    slack_trigger_url = SLACK_TRIGGER_URL
     if slack_trigger_url and prev_data["donationCount"] != data["donationCount"]:
         requests.post(
             slack_trigger_url,
