@@ -2,10 +2,10 @@ name: Run
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "30 0-8 * * *"
-  #   - cron: "*/5 9-16 * * *"
-  #   - cron: "30 17-23 * * *"
+  schedule:
+    - cron: "30 0-8 * * *"
+    - cron: "*/5 9-16 * * *"
+    - cron: "30 17-23 * * *"
 
 jobs:
   run:
@@ -32,6 +32,7 @@ jobs:
         run: python main.py
         env:
           SLACK_TRIGGER_URL: ${{ secrets.SLACK_TRIGGER_URL }}
+          BIG_GIVE_CAMPAIGN_ID: ${{ vars.BIG_GIVE_CAMPAIGN_ID }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: data
