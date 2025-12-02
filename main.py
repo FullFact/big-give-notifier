@@ -1,11 +1,11 @@
 import csv
-from datetime import datetime, timezone
 import json
 import math
+from datetime import datetime, timezone
 from os import environ
 from random import choice
-import requests
 
+import requests
 
 BIG_GIVE_CAMPAIGN_ID = environ.get("BIG_GIVE_CAMPAIGN_ID")
 SLACK_TRIGGER_URL = environ.get("SLACK_TRIGGER_URL")
