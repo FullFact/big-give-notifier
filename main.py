@@ -81,11 +81,17 @@ def run():
     if slack_trigger_url:
         print("Webhook exists")
     if slack_trigger_url and prev_data["donationCount"] != data["donationCount"]:
-        requests.post(
+        response = requests.post(
             slack_trigger_url,
             json={
                 "message": message,
             })
+        
+        if response.status_code != 200:
+            print("Problems with Slack webhook")
+            print(f"Status code: {response.status_code}")
+            print(f"Text: {response.text}")
+
 
     with open("data/output.json", "w") as fh:
         json.dump(data, fh, indent=4)
