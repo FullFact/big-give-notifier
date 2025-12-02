@@ -1,46 +1,62 @@
 {
     "video": {
         "provider": "youtube",
-        "key": "mVebMRUppVA"
+        "key": "Cl3qf6PDhF8"
     },
     "usesSharedFunds": false,
     "updates": [],
-    "title": "Fighting bad information",
-    "thankYouMessage": "Thank you so much for your gift to Full Fact. Your donation will help reduce the harm caused by bad information and advocate for a better information environment. You can find out more about our work on our website: fullfact.org.\n\nMany thanks,\nFull Fact",
-    "target": 64000.0,
+    "totalMatchedFundsAvailable": 35000.0,
+    "totalFundraisingTarget": 70000,
+    "totalFundingAllocation": 15000.0,
+    "totalAdjustment": null,
+    "title": "Fighting misinformation",
+    "thankYouMessage": "Thank you so much for your donation. Public support is essential in challenging the negative narrative around fact checking, and in reducing the harm caused by misinformation. You can donate again at any time, including via Direct Debit, by visiting our website: fullfact.org/donate.",
+    "target": 70000.0,
     "surplusDonationInfo": null,
-    "summary": "Bad information causes harm. It damages people\u2019s health and promotes hate.\r\n\r\nAs our team of independent fact checkers continue to fight the causes and consequences of bad information, a new government offers a renewed opportunity to hold leaders to account and build public trust.",
-    "status": "Expired",
-    "startDate": "2024-12-03T12:00:00.000Z",
-    "solution": "We fact check politicians, journalists, and viral online content; giving millions of people access to good information. By asking people to correct the record, the spread of bad information is reduced. \r\n\r\nKeir Starmer has said that public \u201clack of trust\u201d in politics \u201ccan only be healed by actions, not words.\u201d So Full Fact will be monitoring progress against what was promised in exchange for the public's votes. Our Government Tracker will help people understand if the government is delivering.",
+    "summary": "Misinformation ruins lives, damages people\u2019s health and promotes hate. As Full Fact's team continues to fight the causes and consequences of misinformation, the rise of a harmful new narrative equating fact checking with censorship is making public support for fact checkers more critical than ever.",
+    "status": "Active",
+    "startDate": "2025-12-02T12:00:00.000Z",
+    "solution": "We have been vocal in opposing the current narrative. We\u2019re an impartial charity, but we will not be impartial about the principle that facts matter.\n\nWe fact check claims made by politicians, public institutions and journalists, and viral online content; giving millions access to the truth. By asking people to correct the record when they get things wrong, and by developing world-leading technology to tackle misinformation on a global scale, we reduce its spread and the harm it causes.",
+    "slug": null,
+    "relatedApplicationStatus": "Approved",
+    "relatedApplicationCharityResponseToOffer": "Accepted",
+    "regularGivingCollectionEnd": null,
     "ready": true,
     "quotes": [],
-    "problem": "The impact of misinformation is felt by everyone. Disinformation is used to spread hate and deepen divisions. When our politicians and media make and spread false claims, and when misleading information is spread online, we all suffer. \n \nThe election campaign saw the widespread use of deceptive campaigning tactics and high-profile false claims. Claims on issues like immigration, the environment, and health continue to be used as political ammunition. In this climate, misinformation can thrive.",
+    "problem": "The impact of misinformation is felt by everyone. When our politicians and media make and share falsehoods, and when misleading information is spread online, we all suffer.\n\nThis year, we've seen increasing hostility from the US government towards fact checking, and this has led to major internet companies reducing their support. These worrying developments mean the work of fact checkers is even more important.",
+    "pinPosition": null,
     "parentUsesSharedFunds": false,
-    "parentTarget": 40352179.9,
-    "parentRef": "christmas-challenge-2024",
-    "parentDonationCount": 119907,
-    "parentAmountRaised": 43697478.95,
-    "matchFundsTotal": 32000.0,
-    "matchFundsRemaining": 15.0,
+    "parentTarget": 51707988.4,
+    "parentRef": "christmas-challenge-2025",
+    "parentMatchFundsRemaining": 25853994.2,
+    "parentDonationCount": 0,
+    "parentAmountRaised": 0.0,
+    "matchFundsTotal": 35000.0,
+    "matchFundsRemaining": 35000.0,
+    "masterCampaignStatus": null,
     "logoUri": null,
+    "isRegularGiving": false,
+    "isMetaCampaign": false,
     "isMatched": true,
-    "impactSummary": "Your donation will:\r\n\r\nProvide people with access to the good information they need to make informed decisions on the issues that matter to them.\r\n\r\nSupport work on our Government Tracker; monitoring the government\u2019s progress against its manifesto pledges. \r\n\r\nRaise standards in Parliament and stop politicians from making inaccurate claims; promoting a culture of accuracy for a fairer public debate.\r\n\r\nHelp develop AI tools that assist our fact checkers - ensuring AI helps in the fight against misinformation.",
-    "impactReporting": "We keep detailed records of how many people we reach, the numbers of fact checks we publish, how many correction requests we place, and how many are acted upon. We\u2019ll also be recording and sharing the number of Labour Party manifesto pledges we are tracking as this number increases.\r\n\r\nIn addition, we regularly report on our work in our weekly newsletters to supporters, and commission polls and surveys on how the general public reacts to bad information over time.",
-    "id": "a056900002TPVWCAA5",
+    "isEmergencyIMF": false,
+    "impactSummary": "You donation will:\n\nBolster our resilience in the face of the new negative narrative around fact checking. \n\nProvide people across the UK with access to the good information they need to make informed decisions on the issues that matter to them; whether that\u2019s on their health, their finances, or their vote.\n\nRaise standards in Parliament and stop politicians and journalists from making inaccurate claims; promoting a culture of accuracy for a fairer public debate.",
+    "impactReporting": "We keep detailed records of how many people we reach, the numbers of fact checks we publish, how many correction requests we place, and how many are acted upon.\n\nIn addition we regularly report on our work in our weekly newsletters to supporters, and commission polls and surveys on how the general public reacts to misinformation over time.",
+    "imfCampaignTargetOverride": 0.0,
+    "id": "a05WS0000066dcjYAA",
     "hidden": false,
-    "endDate": "2024-12-10T12:00:00.000Z",
-    "donationCount": 989,
+    "endDate": "2025-12-09T12:00:00.000Z",
+    "donationCount": 0,
     "currencyCode": "GBP",
     "countries": [
         "United Kingdom"
     ],
     "charity": {
         "website": "https://fullfact.org",
-        "twitter": "https://twitter.com/FullFact",
+        "twitter": "https://x.com/FullFact",
         "stripeAccountId": "acct_1LqGo94CfpRuI1i1",
         "regulatorRegion": "England and Wales",
         "regulatorNumber": "1158683",
+        "phoneNumber": "020 3397 5140",
         "optInStatement": null,
         "name": "Full Fact",
         "logoUri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/Charity%20Logo/8f25e9ba-b3c8-4e88-815b-42d0c15124e3.png",
@@ -49,47 +65,51 @@
         "id": "0011r00002JgW7vAAF",
         "hmrcReferenceNumber": null,
         "giftAidOnboardingStatus": "Invited to Onboard",
-        "facebook": "https://www.facebook.com/FullFact.org/"
+        "facebook": "https://www.facebook.com/FullFact.org/",
+        "emailAddress": "admin@fullfact.org"
     },
-    "championRef": "big-give-24",
+    "championRef": "reed-educational-25",
+    "championPagePinPosition": null,
     "championOptInStatement": null,
-    "championName": "The Big Give Trust",
+    "championName": "Reed Educational Trust Limited",
     "categories": [
-        "Community Support & Development",
         "Education/Training/Employment",
+        "Health/Wellbeing",
         "Information/Advice"
     ],
+    "campaignStatus": "Active",
+    "campaignFamily": null,
     "campaignCount": null,
     "budgetDetails": [
         {
-            "description": "to fact check and help stop the spread of bad information that causes harm.",
-            "amount": 16000.0
+            "description": "to be a leading voice for fact checking both nationally and globally.",
+            "amount": 20000.0
         },
         {
-            "description": "to help monitor the government against its manifesto pledges.",
-            "amount": 16000.0
-        },
-        {
-            "description": "to push forward our work for honesty and trust, and build a community  which stands against bad information.",
-            "amount": 16000.0
+            "description": "to fact check politicians and the media and stop the spread of harmful misinformation.",
+            "amount": 20000.0
         },
         {
             "description": "to build capacity for working in defined areas like health and climate.",
-            "amount": 16000.0
+            "amount": 15000.0
+        },
+        {
+            "description": "to monitor government progress against manifesto pledges.",
+            "amount": 15000.0
         }
     ],
     "beneficiaries": [
         "General Public/Humankind"
     ],
-    "bannerUri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/CCampaign%20Banner/c67d5470-1568-4334-be20-0b64e8a0de26.png",
-    "amountRaised": 64010.0,
-    "alternativeFundUse": "If the campaign target is not met we will continue to raise funds from other sources. These will be used to further the aims above if additional funds are raised. We are confident that all funds will be able to be spent to further the aims above, even if specific activities are changed or adapted.",
+    "bannerUri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/CCampaign%20Banner/044b85c4-8ec1-4be7-bff6-0dd396c871d2.png",
+    "amountRaised": 0.0,
+    "amountPledged": 20000.0,
+    "alternativeFundUse": "If the campaign target is not met we will continue to raise funds from other sources. These will be used to further the aims above. We are confident that all funds will be able to be spent to further these aims, even if specific activities are changed or adapted.",
     "aims": [
-        "We will continue to fact check the claims of politicians from all parties and work constructively with MPs to ensure corrections are made, and misinformation does not spread further.",
-        "Our Government Tracker will monitor the government\u2019s progress against the pledges made in the Labour Party manifesto, and we will report what we find to the public.",
-        "During the election, we ramped up activity - checking party manifestos on their day of launch; TV debates in real time and multiple claims. Our checks and articles were seen by millions. Your donation will help continue this level of activity; to give people access to the good information they need.",
-        "We will continue to build our focus in specific areas where the debate is highly politicised and prone to misinformation - like climate and decarbonisation, immigration, and health.",
-        "Your support will strengthen our calls for the government to improve online safety legislation to counter harmful misinformation - especially relating to health or when generated by AI."
+        "We will continue to fact check at scale the claims of politicians from all parties and work constructively with MPs to ensure corrections are made, and misinformation does not spread further.",
+        "We will continue to be a voice for the principle that facts matter in the face of the negative narrative  emanating from the US administration and big internet companies. Donations will help secure Full Fact\u2019s work as internet companies withdraw from funding independent fact checkers.",
+        "Full Fact\u2019s Government Tracker will continue to monitor the government\u2019s progress against the pledges made in the Labour Party manifesto, reporting what we find to the public.",
+        "We will continue to build our focus in specific areas where the debate is highly politicised and prone to misinformation - like climate and decarbonisation, immigration, and health."
     ],
     "additionalImageUris": []
 }
