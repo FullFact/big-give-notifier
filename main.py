@@ -78,8 +78,6 @@ def run():
     print(message)
 
     slack_trigger_url = SLACK_TRIGGER_URL
-    if slack_trigger_url:
-        print("Webhook exists")
     if slack_trigger_url and prev_data["donationCount"] != data["donationCount"]:
         response = requests.post(
             slack_trigger_url,
