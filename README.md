@@ -10,7 +10,7 @@ Sends Slack updates about how the Big Give is going.
 4. Uncomment the schedule stuff in the GitHub workflow
 
 
-## Format code
+## Format code
 
 ```
 ruff check --select I . --fix
