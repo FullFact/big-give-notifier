@@ -28,11 +28,11 @@
     "parentUsesSharedFunds": false,
     "parentTarget": 52007556.4,
     "parentRef": "christmas-challenge-2025",
-    "parentMatchFundsRemaining": 7525521.2,
-    "parentDonationCount": 109667,
-    "parentAmountRaised": 40750851.75,
+    "parentMatchFundsRemaining": 7464191.95,
+    "parentDonationCount": 110278,
+    "parentAmountRaised": 40897739.5,
     "matchFundsTotal": 35000.0,
-    "matchFundsRemaining": 4419.0,
+    "matchFundsRemaining": 4399.0,
     "masterCampaignStatus": null,
     "logoUri": null,
     "isRegularGiving": false,
@@ -45,7 +45,7 @@
     "id": "a05WS0000066dcjYAA",
     "hidden": false,
     "endDate": "2025-12-09T12:00:00.000Z",
-    "donationCount": 748,
+    "donationCount": 750,
     "currencyCode": "GBP",
     "countries": [
         "United Kingdom"
@@ -102,7 +102,7 @@
         "General Public/Humankind"
     ],
     "bannerUri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/CCampaign%20Banner/044b85c4-8ec1-4be7-bff6-0dd396c871d2.png",
-    "amountRaised": 61162.0,
+    "amountRaised": 61283.0,
     "amountPledged": 20000.0,
     "alternativeFundUse": "If the campaign target is not met we will continue to raise funds from other sources. These will be used to further the aims above. We are confident that all funds will be able to be spent to further these aims, even if specific activities are changed or adapted.",
     "aims": [
