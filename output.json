@@ -1,61 +1,62 @@
 {
     "video": {
         "provider": "youtube",
-        "key": "Cl3qf6PDhF8"
+        "key": "3TkKgAwlsa4"
     },
     "usesSharedFunds": false,
     "updates": [],
-    "totalMatchedFundsAvailable": 35000.0,
-    "totalFundraisingTarget": 70000,
-    "totalFundingAllocation": 15000.0,
+    "totalMatchedFundsAvailable": 50000.0,
+    "totalFundraisingTarget": 100000,
+    "totalFundingAllocation": 25000.0,
     "totalAdjustment": null,
     "title": "Fighting misinformation",
-    "thankYouMessage": "Thank you so much for your donation. Public support is essential in challenging the negative narrative around fact checking, and in reducing the harm caused by misinformation. You can donate again at any time, including via Direct Debit, by visiting our website: fullfact.org/donate.",
-    "target": 70000.0,
+    "thankYouMessage": "Thank you so much for your support. Your donation will help keep Full Fact impartial, independent and secure. You can donate again at any time, including via Direct Debit, by visiting our website: fullfact.org/donate.",
     "surplusDonationInfo": null,
-    "summary": "Misinformation ruins lives, damages people\u2019s health and promotes hate. As Full Fact's team continues to fight the causes and consequences of misinformation, the rise of a harmful new narrative equating fact checking with censorship is making public support for fact checkers more critical than ever.",
-    "status": "Expired",
-    "startDate": "2025-12-02T12:00:00.000Z",
-    "solution": "We have been vocal in opposing the current narrative. We\u2019re an impartial charity, but we will not be impartial about the principle that facts matter.\n\nWe fact check claims made by politicians, public institutions and journalists, and viral online content; giving millions access to the truth. By asking people to correct the record when they get things wrong, and by developing world-leading technology to tackle misinformation on a global scale, we reduce its spread and the harm it causes.",
+    "summary": "The fight against misinformation has never been fiercer. AI-generated content is becoming ever more sophisticated, the US administration continues to be openly hostile to fact checking, and big internet companies have pulled their support as a result. Full Fact\u2019s work is more important than ever before.",
+    "startDate": "2026-12-01T12:00:00.000Z",
+    "solution": "Full Fact fights misinformation with fact checking; covering claims made by politicians, journalists and AI chatbots. Full Fact gives millions of people access to the truth on the issues that matter to them.\r\n\r\nBut with the nature of misinformation changing, we also produce guidance on how to spot AI-generated content, as well as pushing big tech companies to take their responsibilities to users seriously.\r\n\r\nWe add to debate, we don\u2019t restrict it. We promote more speech, not less.",
     "slug": null,
     "relatedApplicationStatus": "Approved",
     "relatedApplicationCharityResponseToOffer": "Accepted",
     "regularGivingCollectionEnd": null,
-    "ready": true,
     "quotes": [],
-    "problem": "The impact of misinformation is felt by everyone. When our politicians and media make and share falsehoods, and when misleading information is spread online, we all suffer.\n\nThis year, we've seen increasing hostility from the US government towards fact checking, and this has led to major internet companies reducing their support. These worrying developments mean the work of fact checkers is even more important.",
+    "problem": "The political environment is increasingly hostile to fact checking. Big tech companies have cut our funding to avoid becoming targets themselves, leading to significant income gaps for Full Fact. Alongside this, the US administration formalised its blanket denial of visas to those who work in combatting misinformation.\n\nAll this at a time when the very nature of information is shifting. AI-generated misinformation is becoming ever more sophisticated, and harder and harder for people to spot.",
     "pinPosition": null,
     "parentUsesSharedFunds": false,
-    "parentTarget": 52007556.4,
-    "parentRef": "christmas-challenge-2025",
-    "parentMatchFundsRemaining": 1649633.5,
-    "parentDonationCount": 152210,
-    "parentAmountRaised": 55523410.95,
-    "matchFundsTotal": 35000.0,
-    "matchFundsRemaining": 0.0,
-    "masterCampaignStatus": null,
-    "logoUri": null,
+    "parentRef": "christmas-challenge-2026",
+    "parentMatchFundsRemaining": 28775674.0,
+    "parentDonationCount": 0,
+    "parentAmountRaised": 0.0,
+    "matchFundsTotal": 50000.0,
+    "matchFundsRemaining": 50000.0,
+    "locations": [
+        {
+            "regionCode": null,
+            "countryName": "United Kingdom"
+        }
+    ],
     "isRegularGiving": false,
+    "isPublished": true,
     "isMetaCampaign": false,
     "isMatched": true,
     "isEmergencyIMF": false,
-    "impactSummary": "You donation will:\n\nBolster our resilience in the face of the new negative narrative around fact checking. \n\nProvide people across the UK with access to the good information they need to make informed decisions on the issues that matter to them; whether that\u2019s on their health, their finances, or their vote.\n\nRaise standards in Parliament and stop politicians and journalists from making inaccurate claims; promoting a culture of accuracy for a fairer public debate.",
-    "impactReporting": "We keep detailed records of how many people we reach, the numbers of fact checks we publish, how many correction requests we place, and how many are acted upon.\n\nIn addition we regularly report on our work in our weekly newsletters to supporters, and commission polls and surveys on how the general public reacts to misinformation over time.",
+    "inviteOnly": false,
+    "impactSummary": "Every gift bolsters our resilience in the face of hostility from the US administration, the decline in support from internet companies, and a negative narrative around fact checking. Donations help keep Full Fact independent, impartial, and secure. \n\nDonations also mean that people across the UK can continue to access the good information they need to make informed decisions on the issues that matter to them; whether that\u2019s on their health, their finances, or how they vote.",
+    "impactReporting": "We keep detailed records of:\nHow many people we reach\nThe numbers of fact checks we publish\nHow many correction requests we place, and how many are acted upon.\n\nWe report on our work in our weekly newsletters to supporters, and commission polls and surveys on how the general public reacts to misinformation over time.",
     "imfCampaignTargetOverride": 0.0,
-    "id": "a05WS0000066dcjYAA",
+    "id": "a05WS00000G7UeTYAV",
     "hidden": false,
-    "endDate": "2025-12-09T12:00:00.000Z",
-    "donationCount": 1130,
+    "endDate": "2026-12-08T12:00:00.000Z",
+    "donationCount": 0,
     "currencyCode": "GBP",
-    "countries": [
-        "United Kingdom"
-    ],
     "charity": {
         "website": "https://fullfact.org",
         "twitter": "https://x.com/FullFact",
         "stripeAccountId": "acct_1LqGo94CfpRuI1i1",
+        "ryftAccountId": null,
         "regulatorRegion": "England and Wales",
         "regulatorNumber": "1158683",
+        "psp": null,
         "phoneNumber": "020 3397 5140",
         "optInStatement": null,
         "name": "Full Fact",
@@ -68,48 +69,50 @@
         "facebook": "https://www.facebook.com/FullFact.org/",
         "emailAddress": "admin@fullfact.org"
     },
-    "championRef": "reed-educational-25",
+    "championRef": "symondson-26",
     "championPagePinPosition": null,
     "championOptInStatement": null,
-    "championName": "Reed Educational Trust Limited",
+    "championName": "The Symondson Foundation",
     "categories": [
         "Education/Training/Employment",
         "Health/Wellbeing",
         "Information/Advice"
     ],
-    "campaignStatus": "Expired",
     "campaignFamily": null,
     "campaignCount": null,
     "budgetDetails": [
         {
-            "description": "to be a leading voice for fact checking both nationally and globally.",
-            "amount": 20000.0
+            "description": "to be a leading voice nationally and globally in the face of hostility towards fact checking.",
+            "amount": 25000.0
         },
         {
-            "description": "to fact check politicians and the media and stop the spread of harmful misinformation.",
-            "amount": 20000.0
+            "description": "to support a comprehensive assessment of the impacts of AI-generated content.",
+            "amount": 25000.0
         },
         {
-            "description": "to build capacity for working in defined areas like health and climate.",
-            "amount": 15000.0
+            "description": "To provide resources to the public to help them spot AI-generated misinformation.",
+            "amount": 25000.0
         },
         {
-            "description": "to monitor government progress against manifesto pledges.",
-            "amount": 15000.0
+            "description": "to fact check politicians and the media and stop the spread of misinformation that causes harm.",
+            "amount": 25000.0
         }
     ],
     "beneficiaries": [
         "General Public/Humankind"
     ],
-    "bannerUri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/CCampaign%20Banner/044b85c4-8ec1-4be7-bff6-0dd396c871d2.png",
-    "amountRaised": 75387.0,
-    "amountPledged": 20000.0,
-    "alternativeFundUse": "If the campaign target is not met we will continue to raise funds from other sources. These will be used to further the aims above. We are confident that all funds will be able to be spent to further these aims, even if specific activities are changed or adapted.",
+    "banner": {
+        "uri": "https://images-production.thebiggive.org.uk/0011r00002JgW7vAAF/CCampaign%20Banner/7cd8dafd-aaa3-4671-8185-186c559ec4a0.png",
+        "alt_text": null
+    },
+    "amountRaised": 0.0,
+    "amountPledged": 25000.0,
+    "alternativeFundUse": "If the campaign target is not met we will continue to raise funds from other sources. These will be used to further the aims above. We are confident that all funds will be able to be spent to further these aims, even if specific activities are changed or adapted.\n\nAll activities are scalable, so any additional income will also be used to further these aims.",
     "aims": [
-        "We will continue to fact check at scale the claims of politicians from all parties and work constructively with MPs to ensure corrections are made, and misinformation does not spread further.",
-        "We will continue to be a voice for the principle that facts matter in the face of the negative narrative  emanating from the US administration and big internet companies. Donations will help secure Full Fact\u2019s work as internet companies withdraw from funding independent fact checkers.",
-        "Full Fact\u2019s Government Tracker will continue to monitor the government\u2019s progress against the pledges made in the Labour Party manifesto, reporting what we find to the public.",
-        "We will continue to build our focus in specific areas where the debate is highly politicised and prone to misinformation - like climate and decarbonisation, immigration, and health."
+        "We will stand up for fact checking on a local, national and global scale, whatever the political reality.",
+        "We will assess the impact of AI-generated content online. This is an emerging and continuously evolving area. It\u2019s vital more is understood about how Large Language Models generate and disseminate misinformation.",
+        "We will provide the public with resources and advice on how to spot AI-generated misinformation.",
+        "We will continue to fact check the claims of politicians from all parties and work constructively with MPs to ensure corrections are made, and misinformation does not spread further."
     ],
-    "additionalImageUris": []
+    "additionalImages": []
 }
