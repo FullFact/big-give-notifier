@@ -63,6 +63,9 @@ def run():
     # amountRaised includes match funds, so subtract the match funds used
     # to get what donors actually gave (stays accurate once matching runs out)
     match_used = data["matchFundsTotal"] - data["matchFundsRemaining"]
+    # Matching is 1:1, so cap at half the total in case match funds are
+    # reserved for donations not yet counted in amountRaised
+    match_used = min(match_used, amount_raised / 2)
     donated = amount_raised - match_used
     average_donation = donated / donation_count if donation_count else 0
     # round down to 1dp
