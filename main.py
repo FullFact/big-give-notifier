@@ -7,7 +7,7 @@ from random import choice
 
 import requests
 
-BIG_GIVE_CAMPAIGN_ID = environ.get("BIG_GIVE_CAMPAIGN_ID")
+BIG_GIVE_CAMPAIGN_ID = environ["BIG_GIVE_CAMPAIGN_ID"]
 SLACK_TRIGGER_URL = environ.get("SLACK_TRIGGER_URL")
 
 
@@ -53,11 +53,18 @@ def run():
         time_to_go = ""
 
     amount_raised = int(data["amountRaised"])
-    target = int(data["target"])
+    target = data.get("totalFundraisingTarget")
+    if not target:
+        raise ValueError("No fundraising target in Big Give API response")
+    target = int(target)
     donation_count = int(data["donationCount"])
 
     totaliser = build_totaliser(amount_raised, target)
-    average_donation = amount_raised / donation_count / 2 if donation_count else 0
+    # amountRaised includes match funds, so subtract the match funds used
+    # to get what donors actually gave (stays accurate once matching runs out)
+    match_used = data["matchFundsTotal"] - data["matchFundsRemaining"]
+    donated = amount_raised - match_used
+    average_donation = donated / donation_count if donation_count else 0
     # round down to 1dp
     total_percent = math.floor(1000 * amount_raised / target) / 10
 
